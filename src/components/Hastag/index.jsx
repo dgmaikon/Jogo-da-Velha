@@ -4,42 +4,40 @@ import "./styles.css";
 import Card from "../../objects/Card";
 import Player from "../../objects/Player";
 
-const Hastag = () => {
-  return (
-    <Card>
-      <ul className="hastag">
-        <li className="item">
-          <Player player="x" />
-        </li>
-        <li className="item">
-          <Player player="o" />
-        </li>
-        <li className="item">
-          <Player player="x" />
-        </li>
+const Hastag = () => (
+  <Card>
+    <ul className="hastag">
+      <li className="item">
+        <Player player="x" />
+      </li>
+      <li className="item">
+        <Player player="o" />
+      </li>
+      <li className="item">
+        <Player player="x" />
+      </li>
 
-        <li className="item">
-          <Player player="o" />
-        </li>
-        <li className="item">
-          <Player player="x" />
-        </li>
-        <li className="item">
-          <Player player="x" />
-        </li>
+      <li className="item">
+        <Player player="o" />
+      </li>
+      <li className="item">
+        <Player player="x" />
+      </li>
+      <li className="item">
+        <Player player="x" />
+      </li>
 
-        <li className="item">
-          <Player player="x" />
-        </li>
-        <li className="item">
-          <Player player="o" />
-        </li>
-        <li className="item">
-          <Player player="o" />
-        </li>
-      </ul>
-    </Card>
-  );
-};
+      <li className="item">
+        <Player player="x" />
+      </li>
+      <li className="item">
+        <Player player="o" />
+      </li>
+      <li className="item">
+        <Player player="o" />
+      </li>
+    </ul>
+  </Card>
+);
 
 export default Hastag;
