@@ -1,8 +1,8 @@
 import React from "react";
 import "./styles.css";
 
-const Label = ({ content }) => (
-  <label className="label" htmlFor="event">
+const Label = ({ htmlFor, content }) => (
+  <label className="label" htmlFor={htmlFor}>
     {content}
   </label>
 );
