@@ -1,5 +1,6 @@
 import React from "react";
-import dgLogo from "../../img/logo.png";
+import dgLogo from "../../img/logo-icon-light.png";
+import "./styles.css";
 
 const Logo = () => (
   <>
